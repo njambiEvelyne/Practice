@@ -24,4 +24,8 @@ p{
 header{
   position: sticky;
 }
+footer{
+  position: sticky;
+  bottom: 0;
+}
 
