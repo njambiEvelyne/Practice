@@ -40,4 +40,5 @@ const tasks =["HTML", "CSS", "JS"]
 for (const task of tasks){
   console.log(`I'm learning ${task}`);
 }
+//Functions
 
