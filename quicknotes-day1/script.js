@@ -1,1 +1,2 @@
-console.log("Hekllo. Welcome")
+console.log("Hello. Welcome")
+console.log(2+3)
