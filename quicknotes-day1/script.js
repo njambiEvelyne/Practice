@@ -21,3 +21,4 @@ const notes = [
   {id:2, text:"Practice Flexbox", done:true},
 ];
 cosole.log(note)
+//Making dcisions
