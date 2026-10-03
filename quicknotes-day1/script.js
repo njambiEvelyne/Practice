@@ -13,3 +13,4 @@ const note = {
 console.log(note.text);
 note.done = true;
 note.priority = "high";
+console.log(note);
