@@ -10,4 +10,5 @@ const note = {
   text: "Revise HTML forms",
   done : false,
 };
-console.log(note.text)
+console.log(note.text);
+note.done = true;
