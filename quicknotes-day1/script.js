@@ -25,5 +25,7 @@ cosole.log(note)
 const noteText = " " ;
 if (noteText.trim() === ""){
   console.log("Error: A note cannot be empty.")
+}else if (noteText.length > 100){
+  console.log("Error: A note cannot be more than 100 characters.")
 }
 
