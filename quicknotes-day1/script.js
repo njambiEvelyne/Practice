@@ -18,5 +18,5 @@ console.log(note);
 //An array of objects
 const notes = [
   {id:1, text:"Revise HTML forms", done:false},
-  {id:2, text:"Practice F"}
+  {id:2, text:"Practice Flexbo", done:true},
 ]
