@@ -47,3 +47,4 @@ function greet(name){
 
 const message = greet("John");
 console.log(message);
+console.log(greet("Jane"));
