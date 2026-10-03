@@ -4,3 +4,10 @@ const appName = "QuickNotes";
 let noteCount = 0;
 noteCount +=1;
 console.log(appName, noteCount);
+//Object-Grouping related data
+const note = {
+  id : 1,
+  text: "Revise HTML forms",
+  done : false,
+};
+console.log(note.text)
