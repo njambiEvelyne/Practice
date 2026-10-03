@@ -22,3 +22,8 @@ const notes = [
 ];
 cosole.log(note)
 //Making dcisions
+const noteText = " " ;
+if (noteText.trim() === ""){
+  console.log("Error: A note cannot be empty.")
+}
+
