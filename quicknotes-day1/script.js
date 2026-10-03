@@ -53,3 +53,4 @@ console.log(greet("Jane"));
 const doubleArrow  = (n) => {
   return n *2
 }
+cnst douvbleShort = (n) => n*2;
