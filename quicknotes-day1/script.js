@@ -30,4 +30,8 @@ if (noteText.trim() === ""){
 }else{
   console.log("Note Saved")
 }
+//loops
+for(let i =1; i<3; i++){
+  console.log("Looping", i);
+}
 
