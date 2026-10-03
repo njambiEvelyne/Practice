@@ -35,3 +35,9 @@ for(let i =1; i<3; i++){
   console.log("Looping", i);
 }
 
+//for...of: easiest way to visit each array item
+const tasks =["HTML", "CSS", "JS"]
+for (const task of tasks){
+  console.log(`I'm learning ${task}`);
+}
+
