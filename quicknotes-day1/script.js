@@ -20,3 +20,4 @@ const notes = [
   {id:1, text:"Revise HTML forms", done:false},
   {id:2, text:"Practice Flexbox", done:true},
 ];
+cosole.log(note)
