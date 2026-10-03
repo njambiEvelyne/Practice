@@ -41,4 +41,6 @@ for (const task of tasks){
   console.log(`I'm learning ${task}`);
 }
 //Functions
-
+function greet(name){
+  return `Hello ${name}`;
+}
