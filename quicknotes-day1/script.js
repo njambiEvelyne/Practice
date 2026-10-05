@@ -56,7 +56,7 @@ const doubleArrow  = (n) => {
 const doubleShort = (n) => n*2;
 
 let attempts = 0;
-while(attempts < 5)
+while(attempts < 5){
   attempts++;
   console.log(`Attempt ${attempts}`);
   if (attempts === 3){
