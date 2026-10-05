@@ -64,3 +64,4 @@ while(attempts < 5){
     break;//Leave the loop
   }
 }
+//Array methods
