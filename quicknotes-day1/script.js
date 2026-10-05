@@ -51,7 +51,7 @@ console.log(greet("Jane"));
 
 //Arrow functions
 const doubleArrow  = (n) => {
-  return n *2
+  return n *
 }
 const doubleShort = (n) => n*2;
 
