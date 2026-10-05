@@ -74,5 +74,5 @@ notes.forEach((note) => console.log(note.text));
 
 //Functions
 function nameDisplay(fName,mName, lName){
-  ret
+  return `${fName} ${mName} ${lName}`;
 }
