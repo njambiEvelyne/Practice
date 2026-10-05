@@ -70,3 +70,4 @@ const notes2 = [
   {id:2, text:"Practice Flexbox", done:true},
   {id:3, text:"Learn JS", done:false},
 ]
+notes.forEach((note) => console.log(note.text));
