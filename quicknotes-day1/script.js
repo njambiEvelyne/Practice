@@ -47,7 +47,7 @@ function greet(name){
 
 const message = greet("John");
 console.log(message);
-console.log(greet("Jane"))
+console.log(greet("Jane"));
 
 //Arrow functions
 const doubleArrow  = (n) => {
