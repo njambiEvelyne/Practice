@@ -77,3 +77,6 @@ function nameDisplay(fName,mName, lName){
   return `${fName} ${mName} ${lName}`;
 }
 const person1 = nameDisplay("John", "M.", "Doe");
+console.log(person1);
+const person2 = nameDisplay("Jane", "A.", "Smith");
+console.log(person2);
