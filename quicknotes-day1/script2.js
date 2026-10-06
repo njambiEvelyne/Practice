@@ -20,3 +20,4 @@ input.focus();             // put the cursor back in the box
 //Creating elements
 const list = document.querySelector("#notes-list");
 const li =document.createElement("li");
+li.textContent = "This is a new note.";
