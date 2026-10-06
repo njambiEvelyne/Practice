@@ -16,3 +16,6 @@ const input = document.querySelector("#note-input");
 console.log(input.value);  // current text in the box
 input.value = "";          // clear the box
 input.focus();             // put the cursor back in the box
+
+//Creating elements
+cinst list = document.querySelector("#notes-list");
