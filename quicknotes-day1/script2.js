@@ -18,4 +18,5 @@ input.value = "";          // clear the box
 input.focus();             // put the cursor back in the box
 
 //Creating elements
-cinst list = document.querySelector("#notes-list");
+const list = document.querySelector("#notes-list");
+const li =document.createElement("li");
