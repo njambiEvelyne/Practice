@@ -15,7 +15,7 @@ count.classList.toggle("highlight"); // add if missing, remove if present
 const input = document.querySelector("#note-input");
 console.log(input.value);  // current text in the box
 input.value = "";          // clear the box
-input.focus()             // put the cursor back in the box
+input.focus();             // put the cursor back in the box
 
 //Creating elements
 const list = document.querySelector("#notes-list");
