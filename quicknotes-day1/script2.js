@@ -21,7 +21,7 @@ input.focus();             // put the cursor back in the box
 const list = document.querySelector("#notes-list");
 const li =document.createElement("li");
 li.textContent = "This is a new note.";
-list.appendChild(li)
+list.appendChild(li);
 
 li.remove(); // remove the element from the DOM
 list.innerHTML = "";
