@@ -80,3 +80,7 @@ const person1 = nameDisplay("John", "M.", "Doe");
 console.log(person1);
 const person2 = nameDisplay("Jane", "A.", "Smith");
 console.log(person2);
+
+//Adding event listeners
+
+
