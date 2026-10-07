@@ -82,5 +82,5 @@ const person2 = nameDisplay("Jane", "A.", "Smith");
 console.log(person2);
 
 //Adding event listeners
-
+const button = document.querySelector("button");
 
