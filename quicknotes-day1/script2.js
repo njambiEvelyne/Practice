@@ -4,7 +4,7 @@ count.textContent = "You have 5 notes.";
  
 // Change a style directly (CSS property names become camelCase)
 count.style.color = "#8e0000";
-count.style.fontWeight = "bold"; 
+count.style.fontWeight = "bold"
 // Better: add/remove CSS classes defined in style.css
 count.classList.add("highlight");
 count.classList.remove("highlight");
