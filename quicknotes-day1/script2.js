@@ -1,6 +1,6 @@
 //Changing content , style and classes
 // Change the text
-count.textContent = "You have 5 notes.";
+count.textContent = "You have 5 notes."
  
 // Change a style directly (CSS property names become camelCase)
 count.style.color = "#8e0000";
