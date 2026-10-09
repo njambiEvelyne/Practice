@@ -48,7 +48,6 @@ function greet(name){
 const message = greet("John");
 console.log(message);
 console.log(greet("Jane"));
-
 //Arrow functions
 const doubleArrow  = (n) => {
   return n * 2;
