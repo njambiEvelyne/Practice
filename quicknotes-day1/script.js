@@ -51,7 +51,6 @@ console.log(greet("Jane"));
 const doubleArrow  = (n) => {
   return n * 2;
 }
-
 const doubleShort = (n) => n*2;
 let attempts = 0;
 while(attempts < 5){
