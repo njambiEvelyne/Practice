@@ -44,7 +44,6 @@ for (const task of tasks){
 function greet(name){
   return `Hello ${name}`;
 }
-
 const message = greet("John");
 console.log(message);
 console.log(greet("Jane"));
