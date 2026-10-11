@@ -7,7 +7,7 @@ count.style.color = "#8e0000";
 count.style.fontWeight = "bold";
 // Better: add/remove CSS classes defined in style.css
 count.classList.add("highlight");
-count.classList.remove("highlight")
+count.classList.remove("highlight");
 count.classList.toggle("highlight"); // add if missing, remove if present
  
 // Read and change what the user typed in an input
