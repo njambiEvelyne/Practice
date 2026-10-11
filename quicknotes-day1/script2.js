@@ -11,7 +11,7 @@ count.classList.remove("highlight");
 count.classList.toggle("highlight"); // add if missing, remove if present
  
 // Read and change what the user typed in an input
-const input = document.querySelector("#note-input"
+const input = document.querySelector("#note-input")
 console.log(input.value);  // current text in the box
 input.value = "";          // clear the box
 input.focus();             // put the cursor back in the box
