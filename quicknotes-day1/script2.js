@@ -36,4 +36,4 @@ list.addEventListener("click", (event) => {
     deleteNote(id);
   }
 });
-  
+//Keyboard and Input Events  
