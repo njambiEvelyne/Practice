@@ -48,4 +48,4 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) {
     console.log("Shortcut pressed!");
   }
-})
+});
