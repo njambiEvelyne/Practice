@@ -37,3 +37,15 @@ list.addEventListener("click", (event) => {
   }
 });
 //Keyboard and Input Events  
+input.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    input.value = "";
+  }
+});
+ 
+// Ctrl + Enter (Cmd + Enter on Mac) anywhere on the page
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Enter" && (event.ctrlKey || event.metaKey)) {
+    console.log("Shortcut pressed!");
+  }
+});
