@@ -24,3 +24,4 @@ list.appendChild(li);
 
 li.remove();// remove the element from the DOM
 list.innerHTML = "";
+const button = document.querySelector("button");
