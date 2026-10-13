@@ -29,3 +29,11 @@ button.addEventListener("click",() =>{
   console.log("Button was clicked!")
 });
 //Event delegation
+list.addEventListener("click", (event) => {
+  // event.target is the exact element that was clicked
+  if (event.target.classList.contains("delete-btn")) {
+    const id = Number(event.target.dataset.id);
+    deleteNote(id);
+  }
+});
+  
