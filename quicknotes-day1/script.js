@@ -66,7 +66,6 @@ while(attempts < 5){
 const notes2 = [
   {id:1, text:"Revise HTML forms", done:false},
   {id:2, text:"Practice Flexbox", done:true},
-
   {id:3, text:"Learn JS", done:false},
 ]
 notes.forEach((note) => console.log(note.text));
