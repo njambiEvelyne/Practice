@@ -69,7 +69,6 @@ const notes2 = [
   {id:3, text:"Learn JS", done:false},
 ]
 notes.forEach((note) => console.log(note.text));
-
 //Functions
 function nameDisplay(fName,mName, lName){
   return `${fName} ${mName} ${lName}`;
