@@ -82,5 +82,5 @@ console.log(person2);
 //Adding event listeners
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
-  console.log("Button clicked");
+  console.log("Button clicked";
 });
