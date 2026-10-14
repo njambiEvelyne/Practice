@@ -32,7 +32,7 @@ if (noteText.trim() === ""){
 }
 //loops
 for(let i =1; i<3; i++){
-  console.log("Looping", i)
+  console.log("Looping", i);
 }
 
 //for...of: easiest way to visit each array item
