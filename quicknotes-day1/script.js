@@ -42,7 +42,7 @@ for (const task of tasks){
 }
 //Functions
 function greet(name){
-  return `Hello ${name}`;
+  return `Hello ${name}`
 }
 const message = greet("John");
 console.log(message);
