@@ -49,7 +49,7 @@ console.log(message);
 console.log(greet("Jane"));
 //Arrow functions
 const doubleArrow  = (n) => {
-  return n * 2;
+  return n * 2
 }
 const doubleShort = (n) => n*2;
 let attempts = 0;
