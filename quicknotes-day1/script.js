@@ -62,7 +62,6 @@ while(attempts < 5){
   }
 }
 
-
 //Array methods
 const notes2 = [
   {id:1, text:"Revise HTML forms", done:false},
