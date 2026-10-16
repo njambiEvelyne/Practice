@@ -71,6 +71,7 @@ const notes2 = [
 notes.forEach((note) => console.log(note.text));
 //Functions
 function nameDisplay(fName,mName, lName){
+  
   return `${fName} ${mName} ${lName}`;
 }
 
