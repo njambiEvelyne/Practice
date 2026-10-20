@@ -9,7 +9,7 @@ const note = {
   id : 1,
   text: "Revise HTML forms",
   done : false,
-}
+};
 console.log(note.text);
 note.done = true;
 note.priority = "high";
