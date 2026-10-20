@@ -60,7 +60,7 @@ while(attempts < 5){
     console.log("Successs on attempt 3 - stopping early.");
     break;//Leave the loop
   }
-}
+};
 //Array methods
 const notes2 = [
   {id:1, text:"Revise HTML forms", done:false},
