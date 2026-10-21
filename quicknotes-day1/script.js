@@ -55,7 +55,7 @@ const doubleShort = (n) => n*2;
 let attempts = 0;
 while(attempts < 5){
   attempts++;
-  console.log(`Attempt ${attempts}`);
+  console.log(`Attempt ${attempts}`)
   if (attempts === 3){
     console.log("Successs on attempt 3 - stopping early.");
     break;//Leave the loop
