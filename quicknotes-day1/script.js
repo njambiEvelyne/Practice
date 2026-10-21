@@ -79,7 +79,7 @@ const person2 = nameDisplay("Jane", "A.", "Smith");
 console.log(person2);
 
 //Adding event listeners
-const button = document.querySelector("button");
+const button = document.querySelector("button")
 button.addEventListener("click", () => {
   console.log("Button clicked");
 });
